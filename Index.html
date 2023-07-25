@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WorkRota</title>
+</head>
+<body>
+    <div class="container">
+        <div class="divEsquerda">
+            <div id="divBoasVindas">
+                <div class="titulos">
+                    <div id="tituloSeja">
+                        <h1>Seja</h1>
+                    </div>
+
+                    <div id="tituloBemVindo">
+                        <h1>Bem-vindo!</h1>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="divDireita">
+            <div id="cima">
+                <span>WorkRota</span>
+            </div>
+
+
+            <!-- Login -->
+            <div id="meioLogin">
+                <div id="lblLogin">
+                    <div id="divLogin">
+                        <label for="inptUser">Entrar</label>
+                    </div>
+                </div>
+
+                <div id="divInputs">
+                    <input class="inptsLogin" id="inptUser" type="text" placeholder="Usuário">
+                    <input class="inptsLogin" id="inptPass" type="password" placeholder="Senha">
+                    <div id="erroLogin"></div>
+                </div>
+
+                <div id="divBtn">
+                    <button onclick="Entrar()"  id="btnEntrar">Entrar</button>
+                    <a onclick="abrirCadastro()">Cadastre-se</a>
+                </div>
+            </div>
+
+
+
+
+            <!-- cadastro -->
+            <div id="meioCadastro">
+                <div id="lblLogin">
+                    <div id="divLogin">
+                        <label for="inptUser">Cadastro</label>
+                    </div>
+                </div>
+
+                <div id="divInputs">
+                    <input class="inpts" id="inptUserCad" type="text" placeholder="Usuário">
+                    <input class="inpts" id="inptPassCad" type="password" placeholder="Senha">
+                    <input class="inpts" id="inptConfirmPass" type="password" placeholder="Confirmar senha">
+                    <div id="erroCadastro"></div>
+                </div>
+
+                <div id="divBtn">
+                    <button onclick="Cadastrar()"  id="btnCadastro">Cadastrar</button>
+                    <a onclick="abrirLogin()">Já tenho uma conta</a>
+                </div>
+            </div>
+
+
+
+            <div id="baixo">
+
+            </div>
+
+            
+
+        </div>
+    </div>
+
+   
+    <script src="Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
