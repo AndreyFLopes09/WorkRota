@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200&family=Raleway:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap');
+body,html{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: #72a5ab;
+    box-shadow: 0 0 15px 7px rgb(167, 167, 167);
+}
+
+#space{
+    
+    height: 100%;
+    width: 2%;
+}
+
+.divUser{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.divUser span{
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    font-family: Montserrat;
+
+}
+
+#spacemeio{
+    width: 43%;
+    
+}
+
+.iconLogout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 100%;
+    
+}
+
+.iconLogout i{
+    font-size: 3vw;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.iconLogout i:hover{
+    scale: 1.05;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 55vh;
+    padding: 2vw;
+    border-radius: 30px;
+    box-shadow:  0 0 7px 5px rgb(195, 195, 195);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.cards:hover{
+    scale: 1.02;
+    box-shadow:  0 7px 7px 5px rgb(195, 195, 195);
+}
+
+.iconCards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid #72a5ab;
+    height: 20%;
+}
+
+.iconCards i{
+    font-size: 5vw;
+    color: #72a5ab;
+}
+.iconCards span{
+    font-size: 3vw;
+    font-family: Montserrat;
+    font-weight:600;
+    color: #6B757B;
+}
+
+.descriptionCards{
+    display: flex;
+    height: 78%;
+    width: 100%;
+
+}
+
+.cardEdits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:10vw;
+    height: 12vh; 
+    border: 2px solid #72a5ab;
+    border-radius: 20px;
+}
+
+.divIcons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardEdits i {
+    font-size: 2.5vw;
+    color:#314e51;
+}
+
+.cardEdits span{
+    font-size: 1.5vw;
+    font-family: Raleway;
+    font-weight: 600;
+    color: #456266;
+}
+
+footer{
+    height: 15vh;
+    background-color:#456266;
+}

@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../src/styles/home.css">
+    <link rel="stylesheet" href="../src/fontawesome-free-6.4.0-web/css/all.min.css">
+    <title>WorkRota</title>
 </head>
-<body bgcolor="black">
-    
+<body>
+    <header>
+        <div id="space"></div>
+
+        <div class="divUser">
+            <span id="user"> </span>
+        </div>
+
+        <div id="spacemeio"></div>
+
+        <div class="iconLogout">
+            <i onclick="Logout()" class="fa-solid fa-arrow-right-from-bracket"></i>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="cards">
+                <div class="iconCards">
+                    <i class="fa-solid fa-id-card"></i>
+                    <span> Editar perfil</span>
+                </div>
+
+                <div class="descriptionCards">
+                    <div class="divIcons">
+                        
+                        <div class="cardEdits"><i class="fa-regular fa-user"></i> <span> Usuário </span> </div>
+                        <div class="cardEdits"><i class="fa-solid fa-at"></i> <span> E-mail </span> </div>
+                        <div class="cardEdits"><i class="fa-solid fa-key"></i> <span> Senha </span> </div>
+
+                    </div>
+                 
+                </div>
+            </div> 
+
+            <div class="cards">
+                <div class="iconCards">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>Escalas</span>
+                </div>
+
+                <div class="descriptionCards">
+                    <div class="divIcons">
+                        
+                        <div class="cardEdits"><i class="fa-regular fa-calendar-plus"></i> <span> Nova Escala</span> </div>
+                        <div class="cardEdits"><i class="fa-solid fa-calendar"></i> <span> Escalas</span> </div>
+                        <div class="cardEdits"><i class="fa-solid fa-people-group"></i> <span> Times </span> </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="../src/homeScript.js"></script>
 </body>
 </html>
